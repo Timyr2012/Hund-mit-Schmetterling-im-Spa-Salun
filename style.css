@@ -70,7 +70,7 @@ header{
 }
 .about{
     background-color: #EFEFEF;
-    box-shadow: 0px 4px 4px 0px #000000;
+    box-shadow: 0px 4px 4px 0px #00000040
 }
 .about-container{
     display: flex;
@@ -188,17 +188,16 @@ header{
 .engineer{
     display:flex;
 }
-.engineer-container{
-    display:flex; 
-    flex-direction: column;
-}
+
 .engineer-img{
     width: 731px;
     height: 794px;
     padding-left:440px;
 }
-.engineer-button{
+.engineer-link{
+    
     padding: 30px 200px 30px 200px;
+    width: 731px;
     background-color: #B2FFA6;
     font-size: 32px;
 }
