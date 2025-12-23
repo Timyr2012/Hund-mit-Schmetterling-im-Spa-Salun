@@ -115,6 +115,7 @@ header{
 }
 .pros-img{
     height: 50px;
+    padding-right: 28px;
 }
 
 
@@ -158,4 +159,18 @@ footer{
 }
 .footer-copywrite{
     color: #FFFFFF;
+}
+
+
+
+
+.engineer{
+    margin: auto;
+}
+.engineer-img{
+    margin: auto;
+    width: 731px;
+}
+.engineer-button{
+    padding: 10px 20px 10px 20px;
 }
