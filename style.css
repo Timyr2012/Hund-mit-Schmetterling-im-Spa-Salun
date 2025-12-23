@@ -1,7 +1,10 @@
 body{
     font-size: 24px;
     font-family: 'Raleway',sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 h1,h2,p,ul{
     margin: 0;
     padding: 0;
@@ -11,4 +14,148 @@ a{
 }
 li{
     list-style: none;
+}
+header{
+    padding: 32px 0px 32px 150px;
+    background-color: #121212;
+}
+.header-list{
+    display: flex;
+    gap: 100px;
+}
+.header-link{
+    color: #FFFFFF;
+    font-family: 'Oswald',sans-serif;
+}
+.header-link:hover{
+    color: #B2FFA6;
+}
+.hero{
+    border-bottom: 1px #000000 solid;
+}
+.hero-container{
+    display: flex;
+    gap:346px;
+    padding-left: 150px;
+}
+.hero-wrap{
+    padding-top: 150px;
+}
+.hero-subtitle{
+    font-size: 64px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+.hero-title{
+    font-size: 64px;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+.hero-button{
+    padding: 15px 80px 15px 80px;
+    background-color: #B2FFA6;
+    font-family: 'Oswald',sans-serif;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+}
+.hero-button-link{
+    color:#000000;
+}
+.about{
+    background-color: #EFEFEF;
+    padding-left: 150px;
+    box-shadow: 0px 4px 4px 0px #000000;
+}
+.about-container{
+    display: flex;
+    gap: 78;
+}
+.about-title{
+    padding-top: 98px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.about-text{
+    padding-bottom: 60px;
+    width: 800px;
+}
+.about-button{
+    padding: 15px 80px 15px 80px;
+    background-color: #B2FFA6;
+    font-family: 'Oswald',sans-serif;
+    font-size: 24px;
+    border: none;
+}
+.about-button-link{
+    color:#000000;
+    border-radius: 5px;
+}
+
+.pros{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 150px;
+    display: flex;
+    align-items: center;
+}
+.pros-list{
+    display: flex;
+    gap:115px;
+    width: 929px;
+    flex-wrap: wrap;
+    padding-right: 154px;
+}
+.pros-item{
+    width: 407px;
+}
+.pros-container{
+    display: flex;
+}
+.pros-img{
+    height: 50px;
+}
+
+
+.servises{
+    padding-top: 60px;
+    padding-bottom: 60px ;
+    display: flex;
+    justify-content: center;
+    background-color: #EFEFEF;
+}
+.servises-wrap{
+    display: flex;
+}
+.servises-title{
+    justify-content: center;
+}
+
+.servises-list{
+    display: flex;
+    padding-left: 150px;
+    gap: 20px;
+}
+
+.servises-button{
+    margin: auto;
+}
+
+
+
+
+
+
+footer{
+    background-color: #121212;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    padding-left: 151px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-copywrite{
+    color: #FFFFFF;
 }
