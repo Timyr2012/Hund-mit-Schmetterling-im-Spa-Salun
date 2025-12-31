@@ -11,6 +11,9 @@ h1,h2,p,ul{
 }
 a{
     text-decoration: none;
+    display: inline-block;
+    letter-spacing:0.06em;
+
 }
 li{
     list-style: none;
@@ -21,8 +24,7 @@ li{
 }
 
 
-
-header{
+.header{
     padding-top: 32px;
     padding-bottom: 32px;
     background-color: #121212;
@@ -44,10 +46,7 @@ header{
 .hero-container{
     justify-content: space-between;
     display: flex;
-    padding-left: 150px;
-}
-.hero-wrap{
-    padding-top: 150px;
+    align-items: center;
 }
 .hero-subtitle{
     font-size: 64px;
@@ -74,7 +73,7 @@ header{
 }
 .about-container{
     display: flex;
-    gap: 78;
+
 }
 .about-title{
     padding-top: 98px;
@@ -84,7 +83,6 @@ header{
 }
 .about-text{
     padding-bottom: 60px;
-    width: 800px;
 }
 .about-link{
     padding: 15px 80px 15px 80px;
@@ -104,9 +102,7 @@ header{
 .pros-list{
     display: flex;
     gap:115px;
-    width: 929px;
     flex-wrap: wrap;
-    padding-right: 154px;
 }
 .pros-item{
     display: flex;
@@ -141,12 +137,14 @@ header{
 }
 .servises-text{
     padding-bottom: 56px;
+
 }
 
 .servises-list{
     display: flex;;
     gap: 20px;
     padding-bottom: 80px;
+    text-align:left;
 }
 
 .servises-link{
