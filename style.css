@@ -69,14 +69,16 @@ li{
 }
 .about{
     background-color: #EFEFEF;
-    box-shadow: 0px 4px 4px 0px #00000040
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+    
 }
 .about-container{
     display: flex;
-
+    gap: 78px;
+    align-items: center;
 }
 .about-title{
-    padding-top: 98px;
     padding-bottom: 30px;
     font-size: 40px;
     font-weight: 700;
@@ -104,12 +106,19 @@ li{
     gap:115px;
     flex-wrap: wrap;
 }
+.pros-title{
+    font-weight: 700;
+    font-size: 32px;
+    padding-bottom: 25px;
+}
 .pros-item{
     display: flex;
     width: 407px;
 }
 .pros-container{
     display: flex;
+    gap: 174px;
+    align-items: center;
 }
 .pros-img{
     height: 50px;
@@ -137,11 +146,11 @@ li{
 }
 .servises-text{
     padding-bottom: 56px;
-
+    font-size: 32px;
 }
 
 .servises-list{
-    display: flex;;
+    display: flex;
     gap: 20px;
     padding-bottom: 80px;
     text-align:left;
