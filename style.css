@@ -142,7 +142,7 @@ li{
     text-align: center;
     font-weight: 700;
     font-size: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 40px;  
 }
 .servises-text{
     padding-bottom: 56px;
@@ -155,7 +155,10 @@ li{
     padding-bottom: 80px;
     text-align:left;
 }
-
+.servises-name{
+    font-weight: 600;
+    padding-top: 25px;
+}
 .servises-link{
     text-align: center;
     padding: 15px 80px 15px 80px;
